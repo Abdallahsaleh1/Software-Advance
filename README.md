@@ -1,1 +1,1 @@
-![Screenshot](Classdiagram2.jpg)
+![Screenshot](classdiagram2.jpg)
