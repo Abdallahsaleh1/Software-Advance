@@ -12,4 +12,4 @@
 <h4> Suppose we have an event-based logging service: Client objects request that text be logged by sending a message to the logging service. Other objects actually log the text somewhere (console, file, whatever) by listening to the logging service for these logging requests and handling them. First, notice that the logging service passes the classic test for being a singleton:
 The requesters need a well-known object to which to send requests to log. This means a global point of access.
 Since the logging service is a single event source to which multiple listeners can register, there only needs to be one instance.</h4>
-  <h4> and not ussing singilton design pattern will make the synchronisation case so it's easier to use singlton </h4>
+  <h4> and not using singilton design pattern will make the synchronisation case so it's easier to use singlton </h4>
